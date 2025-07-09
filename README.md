@@ -1,6 +1,6 @@
 # Model Explainability Techniques 🔍
 
-A comprehensive implementation of model-agnostic explainability methods including SHAP, LIME, and Feature Importance techniques for various data types (text, tabular, and image).
+This repository teaches how to implement model-agnostic explainability methods including SHAP, LIME, and Feature Importance techniques for various data types (text, tabular, and image).
 
 ## 📋 Table of Contents
 - [Overview](#overview)

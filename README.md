@@ -8,7 +8,6 @@ A comprehensive implementation of model-agnostic explainability methods includin
 - [Techniques Covered](#techniques-covered)
 - [Quick Start](#quick-start)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -154,20 +153,5 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- SHAP contributors for the amazing framework
-- LIME authors for pioneering local explanations
-- scikit-learn team for permutation importance implementation
-- The broader XAI community for continuous improvements
-
----
-
-**Questions?** Open an issue or reach out on [LinkedIn](your-linkedin-url)
 
 ⭐ Star this repository if you find it helpful!

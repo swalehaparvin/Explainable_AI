@@ -7,7 +7,6 @@ A comprehensive implementation of model-agnostic explainability methods includin
 - [Installation](#installation)
 - [Techniques Covered](#techniques-covered)
 - [Quick Start](#quick-start)
-- [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -145,43 +144,6 @@ sorted_idx = perm_importance.importances_mean.argsort()
 plt.barh(feature_names[sorted_idx], perm_importance.importances_mean[sorted_idx])
 plt.xlabel("Permutation Importance")
 ```
-
-## 📁 Examples
-
-### `/notebooks`
-- `01_feature_importance.ipynb`: Comprehensive feature importance analysis
-- `02_shap_global_explanations.ipynb`: SHAP for model-level insights
-- `03_shap_local_explanations.ipynb`: Individual prediction explanations
-- `04_lime_tabular.ipynb`: LIME for structured data
-- `05_lime_text.ipynb`: LIME for NLP models
-- `06_lime_image.ipynb`: LIME for computer vision
-
-### `/scripts`
-- `explain_model.py`: Command-line tool for quick explanations
-- `compare_techniques.py`: Side-by-side comparison of methods
-- `utils.py`: Helper functions for visualization
-
-## 📊 Visualization Gallery
-
-### SHAP Summary Plot
-Shows feature importance and impact direction
-![SHAP Summary](images/shap_summary.png)
-
-### LIME Text Explanation
-Highlights important words in text classification
-![LIME Text](images/lime_text.png)
-
-### Permutation Importance
-Robust feature importance across different models
-![Permutation Importance](images/perm_importance.png)
-
-## 🎯 Use Cases
-
-1. **Model Debugging**: Identify why models make incorrect predictions
-2. **Feature Engineering**: Discover which features to improve or remove
-3. **Regulatory Compliance**: Provide explanations for automated decisions
-4. **Model Comparison**: Understand differences between models
-5. **Bias Detection**: Uncover unwanted dependencies in predictions
 
 ## 🤝 Contributing
 
